@@ -4,15 +4,8 @@ import { Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        width: "100%",
-      }}
-    >
-      <Text>Hola a todos!</Text>
+    <View className="flex-1 items-center justify-center">
+      <Text className="text-4xl font-bold">Hola a todos!</Text>
       <StatusBar style="auto" />
       <Link
         href="/profile"
