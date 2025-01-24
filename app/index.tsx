@@ -5,15 +5,9 @@ import { Text, View } from "react-native";
 export default function App() {
   return (
     <View className="flex-1 items-center justify-center">
-      <Text className="text-4xl font-bold">Hola a todos!</Text>
+      <Text className="text-4xl font-pblack">Hola a todos!</Text>
       <StatusBar style="auto" />
-      <Link
-        href="/profile"
-        style={{
-          color: "blue",
-          fontWeight: 600,
-        }}
-      >
+      <Link href="/profile" className="text-blue-600 font-semibold">
         Go to profile
       </Link>
     </View>
