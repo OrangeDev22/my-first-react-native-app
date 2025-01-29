@@ -1,6 +1,6 @@
-import { View, Text, Image, ImageSourcePropType } from "react-native";
+import { View, Image, ImageSourcePropType } from "react-native";
 import React, { Fragment } from "react";
-import { Tabs, Redirect } from "expo-router";
+import { Tabs } from "expo-router";
 
 import { icons } from "../../constants";
 
@@ -23,11 +23,6 @@ const TabIcon = ({
         tintColor={color}
         className="!w-6 !h-6"
       />
-      {/* <Text
-        className={`${focused ? "font-psemibold" : "font-pregular"} text-sx`}
-      >
-        {name}
-      </Text> */}
     </View>
   );
 };
