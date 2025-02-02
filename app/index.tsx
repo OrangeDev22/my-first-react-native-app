@@ -1,7 +1,7 @@
 import { images } from "@/constants";
 import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import CustomButton from "./components/CustomButton";
+import CustomButton from "../components/CustomButton";
 import { StatusBar } from "expo-status-bar";
 import { Href, router } from "expo-router";
 
